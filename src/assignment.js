@@ -34,12 +34,6 @@ assignment.sumOfNumbers = sumOfNumbers;
 function countEvenNumbers(arrayOfNumbers) {
     totalEvenNumbers = 0;
     arrayOfNumbers.forEach((item) => item % 2 === 0 ? totalEvenNumbers += 1 : totalEvenNumbers += 0)
-    // for (let i = 0; i < arrayOfNumbers.length; i++) {
-    //     if (arrayOfNumbers[i] % 2 === 0) {
-    //         totalEvenNumbers += arrayOfNumbers[i];
-    //     }
-    // }
-
     return totalEvenNumbers;
 }
 assignment.countEvenNumbers = countEvenNumbers;
@@ -61,9 +55,6 @@ assignment.countEvenNumbers = countEvenNumbers;
 function celsiusToFahrenheit(arrayOfNumbers) {
     newArrayFahrenheit = [];
     arrayOfNumbers.forEach((item) => newArrayFahrenheit.push(Math.trunc((item * 9/5) + 32)))
-    // for (let i = 0; i < arrayOfNumbers.length; i++) {
-    //     newArrayFahrenheit = newArrayFahrenheit.push(Math.trunc((i * 9/5) + 32));
-    // }
     return newArrayFahrenheit;
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
